@@ -1,4 +1,4 @@
-import plantList from '../../public/assets/datas/plantList'
+import plantList from '../datas/plantList'
 
 export default function ShoppingList() {
 	const categories = plantList.reduce(
