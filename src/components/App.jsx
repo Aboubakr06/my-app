@@ -1,6 +1,6 @@
 import Banner from './Banner';
 import Cart from './Cart';
-import ShoppingList from './ShoppingList';
+import ShoppingList from '../components/ShoppingList';
 
 function App() {
 	return (
