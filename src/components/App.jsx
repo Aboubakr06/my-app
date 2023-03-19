@@ -4,11 +4,11 @@ import ShoppingList from './ShoppingList';
 
 function App() {
 	return (
-		<div>
+		<>
 			<Banner />
 			<Cart />
             <ShoppingList />
-		</div>
+		</>
 	)
 }
 
