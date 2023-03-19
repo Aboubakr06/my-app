@@ -1,4 +1,4 @@
-export const plantList = [
+export default [
 	{
 		name: 'monstera',
 		category: 'classique',
