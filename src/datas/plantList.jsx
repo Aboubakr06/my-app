@@ -2,7 +2,8 @@ export default [
 	{
 	name: 'monstera',
 	category: 'classique',
-	id: '1ed'
+	id: '1ed',
+	isBestSale: true
 },
 {
 	name: 'ficus lyrata',
@@ -46,6 +47,7 @@ export default [
 {
 	name: 'succulente',
 	category: 'plante grasse',
-	id: '9vn'
+	id: '9vn',
+	isBestSale: true
 }
 ]

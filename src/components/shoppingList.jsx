@@ -19,7 +19,8 @@ export default function ShoppingList() {
 				{plantList.map((plant) => (
 					<li key={plant.id} className='lmj-plant-item'>
 						{plant.name}
-						{plant.isSpecialOffer && <div className='lmj-sales'>Soldes</div>}
+						{plant.isBestSale ? <span>🔥</span> : null}
+						{plant.isSpecialOffer && <div className='lmj-sales'>Soldes</div>}						
 					</li>
 				))}
 			</ul>
